@@ -14,7 +14,6 @@ public class Initial {
         driver.get("https://www.calculator.net/percent-calculator.html");
 
         Thread.sleep(2000);
-
         driver.quit();
 
 
