@@ -15,10 +15,6 @@ public class Initial {
 
         Thread.sleep(2000);
         driver.quit();
-
-
-
-
     }
 
 }
