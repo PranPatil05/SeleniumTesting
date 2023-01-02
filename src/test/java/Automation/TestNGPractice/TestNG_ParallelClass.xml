@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <!--    <test name="PracticeTest">-->
+    <test name="letRunParallelClass" parallel="classes" thread-count="3">
+        <classes>
+            <class name="Automation.TestNGPractice.ParallelClass"/>
+            <class name="Automation.TestNGPractice.ParallelMethod"></class>
+            <class name="Automation.TestNGPractice.ParallelTest"/>
+        </classes>
+    </test>
+</suite>
